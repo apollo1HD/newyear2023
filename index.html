@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Đếm ngược Tết Quý Mão 2023</title>
+<!-- <link rel="stylesheet" href="style.css"> -->
+<link rel="shortcut icon" href="icon.png" />
+<!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+<script type="text/javascript">
+     function fireworks() {
+    new fo(50), setTimeout("new fo(50)", 750), 0 < stopafter && setTimeout("stopfire()", 6e4 * stopafter)
+}
+document.write('<style type="text/css">body{padding-bottom:0px}</style><img style="position:fixed;z-index:99999;top:0;left:0" src="https://lh3.googleusercontent.com/Nm43LAO21g0ua9Muu0BUELDCkQfCm4sOKIPlXTM3jScFEuuR2q89H4CBKx7bkbzyAvXA-MPb6bFlPXyRGnep6Y3IsBR171nGx3tkB2SD9zyw3qXlxj8iv7SHoP1t0YK-wSmIcg=w141-h143-no"/><img style="position:fixed;z-index:99999;top:0;right:0" src="https://lh3.googleusercontent.com/yfLzqRzZL5T5i20FJbhfXEjDjkUT3PshER0urEBiAq1Euy4NTMZBKnMsH8ni-R7ffM8a_mgua5IjbGnp4DWUXQDI_-mNaDfAkgcyFlNNa5u0kRqjaBtW077U47CWsJgNfhhk-g=w141-h143-no"/><div style="position:fixed;z-index:99999;bottom:-50px;left:0;width:100%;height:104px;background:url() repeat-x bottom left;"></div><img style="position:fixed;z-index:99999;bottom:0px;left:0px" src="https://lh3.googleusercontent.com/2U90SIgXGe2W0O2NPluq66u-98JcgCpKBmRvWDcniKdybBTjqIjB0Noq0UsRdG2oOTZlvVh26T1mU9e1nY8lTuOFrSru_saC4J6K6refpHTSJiCb_SykRe2i7MbHgj8q5ESMzg=w200-h159-no"/><img style="position:fixed;z-index:9999;bottom:0px;right:0px" src="https://lh3.googleusercontent.com/XH0FHlEyLBF5hzcgkDvSjKlInwSYZ5TUoBruIJoRNnXtezP4kCdi0S7_dwXhee-AbfoWL4g9osBMG32sG7u9Tc30NPOP61GpytphyxoFcZgknHoRm54BprHHO0Umd2q8PpV5Lw=w162-h167-no"/><div style="position:fixed;z-index:99999;bottom:3px;right:3px; font-size:11px;color:#B7E8FF;"></div>');
+var stopafter = 0,
+    firestop = [],
+    fire = [],
+    stdDOM = document.getElementById,
+    nsDOM = -1 != navigator.appName.indexOf("Netscape") && 4 == parseInt(navigator.appVersion),
+    hD = "0123456789ABCDEF";
+layernum = 0, piece = function (t) {
+    if (this.elem = null, nsDOM) null == t ? this.elem = new Layer(1) : (this.elem = new Layer(1, t.elem), this.style.visibility = "inherit"), this.parent = t, this.style = this.elem;
+    else if (stdDOM) {
+        this.parent = null == t ? document.body : t.elem, this.elem = document.createElement("div");
+        var e = "xLayer" + layernum++;
+        this.elem.setAttribute("id", e), elemc = document.createTextNode("."), this.elem.appendChild(elemc), this.parent.appendChild(this.elem), this.style = this.elem.style, document.getElementById(e).style.lineHeight = "3px", document.getElementById(e).style.color = "#fff", document.getElementById(e).style.position = "absolute"
+    }(window[this.elem.id] = this).ay = .1, this.type = 0
+}, piece.prototype.moveTo = function (t, e) {
+    nsDOM ? this.elem.moveTo(t, e) : (this.style.left = t + "px", this.style.top = e + "px")
+}, piece.prototype.setC = function (t) {
+    nsDOM ? this.elem.bgColor = t : this.style.backgroundColor = null == t ? "transparent" : t
+}, piece.prototype.fire = function (t, e, i) {
+    var s = Math.random() * Math.PI * 2;
+    this.dx = o * Math.sin(s), this.dy = o * Math.cos(s) - 2, this.x = t, this.y = e, this.moveTo(t, e)
+}, piece.prototype.sCol = function (t, e, i) {
+
+}, piece.prototype.animate = function (t, e) {
+    var i = 25 < t ? Math.random() * (380 - 5 * t) : 255 - 4 * t,
+        s = d2h(i - 112);
+    i < 112 && (s = d2h(i)), this.sCol(d2h(i), s, e), this.dy += this.ay, this.x += this.dx, this.y += this.dy, this.moveTo(this.x, this.y)
+}, fo = function (t) {
+    for (this.id = "fo" + fo.count++, this.sp = new Array, i = 0; i < t; i++) this.sp[i] = new piece, nsDOM ? (this.sp[i].style.clip.top = 0, this.sp[i].style.clip.left = 0, this.sp[i].style.clip.bottom = 3, this.sp[i].style.clip.right = 3) : this.sp[i].style.clip = "rect(0 3 3 0)", this.sp[i].style.visibility = "visible";
+    this.step = 0, window[this.id] = this, fire.push(this), firestop.push(setInterval("window." + this.id + ".animate()", 15))
+}, fo.count = 0, fo.prototype.animate = function () {
+}, window.onload = fireworks; 
+
+var countDate = new Date('Jan 22, 2023 00:00:00').getTime();
+
+        function newYear() {
+            var now = new Date().getTime();
+            gap = countDate - now;
+
+            var second = 1000;
+            var minute = second * 60;
+            var hour = minute * 60;
+            var day = hour * 24;
+
+            var d = Math.floor(gap / (day));
+            var h = Math.floor((gap % (day)) / (hour));
+            var m = Math.floor((gap % (hour)) / (minute));
+            var s = Math.floor((gap % (minute)) / (second));
+
+            document.getElementById('day').innerText = d;
+            document.getElementById('hour').innerText = h;
+            document.getElementById('minute').innerText = m;
+            document.getElementById('second').innerText = s;
+        }
+        setInterval(function () {
+            newYear();
+        }, 1000)
+
+</script>
+</head>
+<body>
+    <style>
+    @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script',Helvetica,Arial,sans-serif;
+}
+body
+{
+    background: #000 url("https://raw.githubusercontent.com/ThanggA7/TET/main/background.jpg");
+    background-attachment: fixed;
+    background-blend-mode: hard-light;
+}
+.container
+{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    right: 100px;
+    bottom: 70px;
+    background: url("https://raw.githubusercontent.com/ThanggA7/TET/main/background.jpg");
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.5),
+                0 0 0 100px rgba(0,0,0,.1);
+}
+
+.container h2
+{
+    text-align: center;
+    font-size: 10em;
+    line-height: 0.7em;
+    color: rgb(255, 255, 255);
+    margin-top: -80px;
+}
+.container h2 span
+{
+    display: block;
+    font-weight: 300;
+    letter-spacing: 6px;
+    font-size: 0.2em;
+}
+.countdown
+{
+    display: flex;
+    margin-top: 50px;
+}
+.countdown div
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 0 15px;
+    font-size: 3em;
+    font-weight: 500;
+}
+.countdown div:before
+{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background: #EEEEEE;
+    color: rgb(0, 0, 0);
+    font-size: 0.35em;
+    line-height: 35px;
+    font-weight: 300;
+}
+.countdown div#day:before
+{
+    content: 'NGÀY';
+}
+.countdown div#hour:before
+{
+    content: 'GIỜ';
+}
+.countdown div#minute:before
+{
+    content: 'PHÚT';
+}
+.countdown div#second:before
+{
+    content: 'GIÂY';
+}
+
+#taitro {
+    margin-top: 3.4em;
+}
+
+#taitro a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.music-box {
+    position: fixed;
+    width: 300px;
+    height: 160px;
+    z-index: 120;
+    bottom: 30px;
+    left: 30px
+}
+
+.music-box a {
+    color: #fff
+}
+
+@media (max-width: 991px) {
+    .music-box {
+        width: 250px;
+        height: 120px;
+        left: auto;
+        left: 30px
+    }
+}
+
+.music-box .music-holder {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #eee;
+    position: absolute;
+    left: 0;
+    top: -30px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out
+}
+
+.music-box .music-holder iframe {
+    width: 100%;
+    height: 100%
+}
+
+.music-box button {
+    background: rgba(0, 0, 0, 0.1);
+    width: 40px;
+    height: 40px;
+    line-height: 0;
+    font-size: 18px;
+    font-size: 1rem;
+    color: #fff;
+    border: 1px solid #e6e6e6;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%
+}
+
+@media (max-width: 991px) {
+    .music-box button {
+        left: auto;
+        left: 0
+    }
+}
+
+.music-box .toggle-music-box {
+    top: -50px;
+    visibility: visible;
+    opacity: 1
+}
+
+@keyframes 			firework-animation {
+    0% {background-color : #ff8426;}
+    25% {background-color : #fffc84;}
+    50% {background-color : #ff83f4;}
+    75% {background-color : #83b6ff;}
+    100% {background-color : #ff8426;}
+}
+@-webkit-keyframes 	firework-animation {
+    0% {background-color : #ff8426;}
+    25% {background-color : #fffc84;}
+    50% {background-color : #ff83f4;}
+    75% {background-color : #83b6ff;}
+    100% {background-color : #ff8426;}
+}
+@keyframes 			firework-seed-animation	{
+    0% {background-color : #ff8426;}
+    25% {background-color : #fffc84;}
+    100% {background-color : #ff8426;}
+}
+@-webkit-keyframes	firework-seed-animation	{
+    0% {background-color : #ff8426;}
+    25% {background-color : #fffc84;}
+    100% {background-color : #ff8426;}
+}
+@keyframes 			firework-fade-animation {
+    0% {opacity : 1;}
+    50% {opacity : 1;}
+    100% {opacity : 0;}
+}
+@-webkit-keyframes 	firework-fade-animation {
+    0% {opacity : 1;}
+    50% {opacity : 1;}
+    100% {opacity : 0;}
+}
+.fireWorkBatch {
+    z-index : 999;
+    position: absolute;
+    top : 0px;
+    left : 0px;
+    animation-name : firework-fade-animation;
+    animation-timing-function : cubic-bezier(0.5, 0, 1. 1);
+    animation-duration : 2.5s;
+}
+.fireWorkParticle {
+    z-index : 999;
+    position: absolute;
+    height : 5px;
+    width : 5px;
+    border-radius : 2.5px;
+    animation-name : firework-animation;
+    animation-timing-function : linear;
+    animation-duration : 1s;
+    animation-iteration-count : infinite;
+}
+.fireWorkSeed {
+    z-index : 999;
+    position: absolute;
+    height : 5px;
+    width : 5px;
+    border-radius : 5px;
+    animation-name : firework-seed-animation;
+    animation-timing-function : linear;
+    animation-duration : 0.5s;
+    animation-iteration-count : infinite;
+}
+</style>		
+<div class="container">
+<br>
+<h2><span>ĐẾM NGƯỢC TẾT QUÝ MÃO</span>2023</h2>
+<div class="countdown">
+<div id="day">Chúc</div>
+<div id="hour">Mừng</div>
+<div id="minute">Năm</div>
+<div id="second">Mới</div>
+</div>
+<div id="taitro">
+<!-- <a href="https://www.facebook.com/100005517036526" class="btn btn-outline-warning btn-sm" target="_blank">About Me</a> -->
+</div>
+</div>
+
+
+<div class='music-box'>
+<a title='Play music'><i class='fa fa-music'></i></a>
+</button>
+<div class='music-holder'>
+<iframe allow='autoplay; encrypted-media' allowfullscreen='' frameborder='0' height='315' src='https://devforum.info/demo/code-phao-hoa-devforum-demo152' width='560'></iframe>
+</div>
+</div>
+<!-- <script type='text/javascript'>
+        if ($(".music-box").length) {
+            var musicBtn = $(".music-box-toggle-btn")
+                musicBox = $(".music-holder");
+            musicBtn.on("click", function () {
+                musicBox.toggleClass("toggle-music-box");
+                return false;
+            })
+        }
+    </script> -->
+</body>
+</html>
